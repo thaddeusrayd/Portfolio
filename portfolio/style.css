@@ -1,0 +1,79 @@
+/* I set a background color and font here for the whole document in the stylings of my alma mater, Mississippi State. I'm not a naturally gifted designer, and I was building this while watching the College World Series, so I researched the hex codes for the MSU branding color palette. At very least I can trust that these color combos are ADA compliant. */
+
+html {
+    background-color: #C1C6C8;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+header {
+    text-align: center;
+    background-color: #5d1725;
+    color: #bdd6e6;
+    padding: 30px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+/* I wanted to beef up the hr a little bit for readability, and I haven't used much black */
+hr {
+    width: 50%;
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* The image as it stood was a pretty plain rectangle and it disrupted the flow of the page, so I added a border and radius */
+img {
+    border: 5px solid black;
+    border-radius: 5%;
+}
+
+main {
+    text-align: center;
+    line-height: 30px;
+    padding: 10px;
+}
+
+/* dropped the bullets because I don't like them */
+ul {
+    list-style: none;
+}
+ 
+footer {
+    text-align: center;
+    background-color: #5d1725;
+    color: #bdd6e6;
+    line-height: 30px;
+    padding: 20px;
+}
+
+/* set the ol position to inside so that the numbers wouldn't stay aligned left */
+ol {
+    list-style-position: inside;
+    padding: 0;
+}
+
+/* dropped the underline because I don't like it */
+a {
+    text-decoration: none;
+}
+
+/* used the LOVE HATE method to set up the pseudo-classes with MSU color palette */
+a:link {
+    color: #bdd6e6;
+}
+
+a:visited {
+    color: #a69f88;
+}
+
+a:hover {
+    color: black
+}
+
+a:active {
+    color: white
+}
